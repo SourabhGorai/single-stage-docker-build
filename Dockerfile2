@@ -10,7 +10,7 @@ ENV GO111MODULE=off
 
 COPY . .
 
-Run CGO_ENABLED=0 go build -o /app .
+RuUN CGO_ENABLED=0 go build -o /app .
 
 #####################################
 # MULTI STAGE BUILD
